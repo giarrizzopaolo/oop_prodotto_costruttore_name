@@ -5,6 +5,6 @@ class Prodotto {
 
   Prodotto(this.id, this.nome, this.prezzo);
 
-  Prodotto.sconto(this.id, this.nome, prezzo=prezzo*0.8);
+  Prodotto.sconto(this.id, this.nome, double prezzo) : prezzo = prezzo * 0.8;
   
 }
