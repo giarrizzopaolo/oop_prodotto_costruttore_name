@@ -1,4 +1,4 @@
-import 'package:studente_app/classe_prodtto.dart';
+import 'package:studente_app/classe_prodotto.dart';
 
 void main() {
   Prodotto p1 = Prodotto(1, 'Prodotto 1', 100.0);
